@@ -1,0 +1,33 @@
+.movie__detail{
+    position:relative;
+    top:20%;
+    display:flex;
+    justify-content: center;
+}
+.detail__image{
+    padding:40px;
+}
+.detail__content{
+    width:50%;
+}
+.detail__title{
+    font-size:40px;
+    padding: 40px;
+}
+.detail__year{
+    font-size:20px;
+    padding:20px 0 0 40px;
+}
+.detail__genres{
+    font-size:20px;
+    padding:20px 0 0 40px;
+    display:flex;
+}
+.detail__genres li{
+    margin-right:10px;
+}
+.detail__summary{
+    font-size:15px;
+    line-height:30px;
+    padding:20px 0 0 40px;
+}

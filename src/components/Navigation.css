@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.nav{
+    position:absolute;
+    top : 80px;
+    left :50px;
+    width:100px;
+    box-shadow:0 13px 27px -5px rgba(23, 23, 51, 0.25),
+    0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 16px -6px rgba(0,0,0,0.25);
+}
+.nav a{
+    display:block;
+    background-color: white;
+    font-size : 15px;
+    width: 120px;
+    text-align: center;
+    font-weight:bold;
+    height:40px;
+    padding-top:10px;
+}
